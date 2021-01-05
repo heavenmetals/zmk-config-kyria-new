@@ -28,7 +28,7 @@
 	&kp LSHFT &kp Z &kp X    &kp C   &kp V &kp B &kp LGUI  &kp LSHFT               &kp INS     &kp SPACE &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
 	                &kp CLCK &kp DEL &kp SEMI    &kp LGUI  &mo LOWER               &kp RSHFT &kp SPACE &kp UP &kp DOWN  &kp RSHFT
 			>;
-			sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>
+			sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
 };
 
         lower_layer {
