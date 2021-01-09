@@ -25,10 +25,10 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   | LGUI | LBKT|            |   RBKT |  SPACE  |  N   |  M    |  ,    |  .   |   /   | RSHFT |
 //                     | PIPE | TAB  |  MO1 | LGUI |   ; |            |  RSHFT |  SPACE  | MO1  | DOWN  |   UP  |
 			bindings = <
-	&kp ESC    &kp Q  &kp W    &kp E     &kp R   &kp T                                                        		    &kp Y       &kp U     &kp I      &kp O    &kp P     &kp BSPC
-	&kp CLCK   &kp A  &kp S    &kp D     &kp F   &kp G                                                         		    &kp H       &kp J     &kp K      &kp L    &kp APOS  &kp RET
-	&kp LSHFT  &kp Z  &kp X    &kp C     &kp V   &kp B  	   &kp LGUI  &kp LBKT                &kp RBKT    &kp SPACE  &kp N       &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-	                  		   &kp PIPE  &kp TAB &kp mo LOWER  &kp LGUI  &kp SEMI                &kp RSHFT   &kp SPACE  &mo LOWER   &kp DOWN  &kp UP
+	&kp ESC    &kp Q  &kp W    &kp E     &kp R   &kp T                                                        		 &kp Y       &kp U     &kp I      &kp O    &kp P     &kp BSPC
+	&kp CLCK   &kp A  &kp S    &kp D     &kp F   &kp G                                                         		 &kp H       &kp J     &kp K      &kp L    &kp APOS  &kp RET
+	&kp LSHFT  &kp Z  &kp X    &kp C     &kp V   &kp B  	&kp LGUI  &kp LBKT                &kp RBKT    &kp SPACE  &kp N       &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+	                  		   &kp PIPE  &kp TAB &mo LOWER  &kp LGUI  &kp SEMI                &kp RSHFT   &kp SPACE  &mo LOWER   &kp DOWN  &kp UP
 			>;
 			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
 };
