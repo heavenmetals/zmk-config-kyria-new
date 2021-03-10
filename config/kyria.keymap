@@ -40,10 +40,10 @@
 // | SHIFT |   !   |   @    |    #    |   $    |   %  |  LGUI  |  LALT  |       | PG UP    |  SPACE |   ^   |   &    |   *   |  LPAR |  RPAR |  EQUAL |
 //                          | LGUI    | BT_CLR |      |  LGUI  | EP_OFF |       | PG DOWN  |  SPACE |       | BT_CLR |   UP  |
 			bindings = <
-	&trans   &kp GRAVE &kp LCTRL  &kp LALT    &kp HOME    &trans												      &trans       &kp LEFT    &kp RIGHT  &kp DOWN  &kp UP    &kp MINUS
-	&kp TAB  &kp N1    &kp N2     &kp N3      &kp N4      &kp N5           										      &kp N6       &kp N7	   &kp N8	  &kp N9    &kp N0    &trans
-	&trans   &kp EXCL  &kp AT     &kp HASH    &kp DOLLAR  &kp PERCENT  &trans   &kp LALT        	      &kp PG_UP	 &trans   &kp CARET    &kp AMPS    &kp STAR	  &kp LPAR  &kp RPAR  &kp EQUAL               
-		 					      &kp LGUI    &bt BT_CLR  &ext_power EP_OFF       &trans   &kp LSHFT		&kp PG_DN    &trans   &trans       &bt BT_CLR  &trans	
+	&trans   &kp GRAVE &kp LCTRL  &kp LALT    &kp HOME    &trans					     		  	    &trans   &kp LEFT        &kp RIGHT  &kp DOWN  &kp UP    &kp MINUS
+	&kp TAB  &kp N1    &kp N2     &kp N3      &kp N4      &kp N5           				      		   	    &kp N6   &kp N7	     &kp N8	&kp N9    &kp N0    &trans
+	&trans   &kp EXCL  &kp AT     &kp HASH    &kp DOLLAR  &kp PERCENT  &trans   &kp LALT            &kp PG_UP	   &trans   &kp CARET    &kp AMPS    &kp STAR   &kp LPAR  &kp RPAR  &kp EQUAL               
+		 		      &kp LGUI    &bt BT_CLR  &trans       &trans   &ext_power EP_OFF	&ext_power EP_OFF  &trans   &trans       &bt BT_CLR  &trans	
 	               	            																						
 
 	               		  >;
